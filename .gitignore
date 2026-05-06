@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# CUDA artifacts
+*.ptx
+*.cubin
+*.fatbin
+*.nvvp
+
+# Object files and libs
+*.o
+*.a
+*.so
+*.dylib
+
+# Logs and results
+*.log
+results/
+
+# Misc
+.cache/
+.DS_Store
